@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* border: 2px solid #000000; */
+    margin: 10vh 15vw 0px 15vw;  
+}
+header{
+    /* border:2px solid red; */
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+
+}
+.heading1{
+    /* border:2px solid blue; */
+    flex-basis: 400px;
+    font-size: 20px;
+    margin-right: 12vw;
+
+}
+.heading2{
+    /* border:2px solid green; */
+    flex-basis: 350px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 18px;
+      
+}
+.heading2 div{
+    font-weight: 700;
+}
+
+section{
+    /* border:2px solid red; */
+    margin-top: 60px;
+}
+
+main{
+    display:flex;
+    flex-direction: row;
+    width: 65vw;
+    flex-wrap: wrap;
+    /* border:2px solid rgb(27, 26, 26); */
+    justify-content: space-between;
+}
+
+.img-sec{
+    width: 250px;
+    height: 360px;
+}
+.img1{
+    display:flex;
+    flex-direction: column;
+    /* border: 2px solid blue; */
+    /* margin-right: 5vw; */
+    
+}
+
+
+.img2{
+    display:flex;
+    flex-direction: column;
+    margin-top: 120px;
+    /* border: 2px solid rgb(174, 0, 255); */
+    /* margin-right: 4vw; */
+}
+
+.img3{
+    display:flex;
+    flex-direction: column;
+    /* border: 2px solid rgb(0, 255, 21); */
+    
+}
+
+.img4{
+    display:flex;
+    flex-direction: column;
+    /* border: 2px solid rgb(255, 115, 0); */
+    /* margin-right: 5vw; */
+}
+
+.img5{
+    display:flex;
+    flex-direction: column;
+    margin-top: 120px;
+    /* border: 2px solid rgb(255, 0, 0); */
+    /* margin-right: 5vw; */
+}
+
+.img6{
+    display:flex;
+    flex-direction: column;
+    /* border: 2px solid rgb(9, 9, 10); */
+    
+}
+
+.photo-des{
+    display : flex;
+    flex-direction: row;
+}
+.designation{
+    writing-mode: vertical-rl;
+    margin-left: 5px;
+    font-size: 14px;
+}
+.name{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 15px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.foot{
+    margin-top: 100px;
+    font-size: 15px;
+    font-family: 'Varela Round', sans-serif;
+    color: rgb(156, 151, 151);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width:440px){
+
+    body{
+        /* border: 2px solid #000000; */
+        margin: 10vh 10vw 0px 5vw;  
+    }
+    main{
+        width:90vw;
+    }
+    .heading1{
+        
+        margin-right: 0px;
+
+        font-size: 18px;
+        
+    
+    }
+    .heading2{
+        margin-top: 40px;
+        font-family: 'Varela Round', sans-serif;
+        font-size: 16px;
+          
+    }
+    .img2{
+        margin-top: 40px;
+    }
+         
+    .img4{
+        margin-top: 50px;
+    }
+    
+    .img5{
+        margin-top: 0px;
+    } 
+    
+    .img6{
+        margin-top: 50px;
+        
+    }
+    .img-sec{
+        width: 120px;
+        height: 170px;
+    }
+    .designation{
+        font-family: 'Varela Round', sans-serif;
+        margin-left: 2px;
+        font-size: 10px;
+    }
+    .name{
+        font-weight: bold;
+        font-size: 15px;
+        margin-top: 10px;
+        
+    }
+    
+}
